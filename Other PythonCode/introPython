@@ -1,0 +1,325 @@
+
+
+# message = """Hello World""" #3 quotation marks to span over multiple lines, enter counts as a character
+
+# print(len(message)) #length of String message
+# print(message[6:]) #print certain character position in message
+# print(message.lower()) ##.upper() apply all lower and upper case to message
+# print(message.count('o')) #count the number of certain character #.find('whatever') to find position of 'whatever' in string
+# message = message.replace('World', 'Universe')
+
+# greeting = 'hello'
+# name = 'michael'
+# message = greeting + ', ' + name + '. Welcome!'
+
+# formatted string
+# message = '{}, {}. Welcome!'.format(greeting, name)
+
+# fstring
+# message = f'{greeting}, {name.upper()}. Welcome!'
+
+# print(help(str.upper)) #print(dir(name))
+
+
+# num_1 = 17
+# num_2 = 3.98711234
+
+# if(num_1 != num_2):
+# 	print(f'{num_1} is different from {num_2}')
+
+
+# string_1 = int('100')
+# string_2 = int('200')
+
+# print(string_1 + string_2)
+
+
+# courses = ['History','Math','Physics','CompSci']
+# courses_2 = ['Gym','Music']
+
+# courses.append('Art') goes to end
+# courses.insert(0,courses_2) inserts as a single value
+# courses.extend(courses_2) adds a list to the end of a list
+
+# courses = courses[:2] + courses_2 + courses[2:]
+# courses.remove('Math')
+# popped = courses.pop() #removes last value
+# courses.insert(1,popped)
+# courses.reverse()
+# courses.sort()
+
+# print(f"{courses.index('Physics')} is the position of 'Physics'")
+# print('Math' in courses)
+
+
+# nums = [90,23,12,4,1,0.3,231]
+# nums.sort(reverse=True)
+# print(nums)
+
+# sorted_courses = sorted(nums)
+# print(f'{sorted_courses} where {max(nums)} is the max value and {min(nums)} is the smallest')
+
+# for index, banana in enumerate(courses, start=2):
+# 	print(index, banana)
+
+
+# courses = ['History','Math','Physics','CompSci']
+
+# course_str = ' - '.join(courses)
+# new_list = course_str.split(' - ')
+
+# print(new_list)
+
+
+#cntrl + / to comment and uncomment multiply lines
+#lists are used as list_1 = ['1','2','3']
+#tuples are used as tuple_1 = ('1','2','3') You can't mutate the contents. You can loop through this and look at it
+#sets are set_1 = {'1','2','3','3'} It will get rid of duplicate values; Only one '3' will appear. As well, it won't have a particular order
+#and each time you print it, it will have a random order
+
+# set_1 = {'1','2','3','3'}
+# set_2 = {'2', '3', '9', '3'}
+# print('2' in set_1)
+# print(set_1.intersection(set_2)) #all shared values ('3' gets considered once because its a set)
+# print(set_1.difference(set_2)) #all non-shared values
+# print(set_1.union(set_2)) #union adds up all the values that don't repeat
+
+###SUMMARY###
+#Lists = mutable (can have values changed, .insert .append .extend spliced, etc.)
+#Tuples = immutable (can't have values changed, can be used as a reference list)
+#Sets = Does not repeat, can be used effectively to do membership tests (does a value belong there), find intersections, differences, 
+#combine uncommon values.. etc.
+
+#To make empty list, tuples, sets, run empty_list = list() or tuple() or set() ##You could also run empty_list = [] or () but {} returns 
+#a dictionary instead of an empty set, so, it may be better to stick with set() for empty set and etc.
+
+
+###Dictionary also known as hashmaps in java of 'key': 'value'
+
+# student = {'name': 'John', 'age': '25', 'courses': ['Math', 'CompSci'], '100': 'woaw'}
+
+# student['hair'] = 'beautiful' #you can add keys with values
+# student['name'] = 'Carl' #you can update keys
+
+# student.update({'name': 'Joe', 'job': 'too good'}) #you can update and add multiple keys at once
+
+# #you can delete a key with del or pop
+# del student['courses']
+# student.pop('age')
+
+# print(student['100'])
+# print(student)
+# print(len(student))
+
+# print(student.keys())
+# print(student.values())
+# print(student.items()) #both keys and values
+
+# #use .get to return "None" or a set string of anything when the 'key' being input 'phone' does not exist
+# print(student.get('phone', "the phone key doesn't exist!"))
+
+
+# for blah in student.items():
+# 	print(blah)
+
+# for bleh in enumerate(reversed(student.items()),0):
+# 	print(bleh)
+
+
+###CONDITIONALS###
+
+# language = 'asdkas'
+
+# if len(language) == 3:
+# 	print("Length of 'language' is 3")
+# elif len(language) == 4:
+# 	print("Length of 'language' is 4")
+# elif len(language) == 5:
+# 	print("Length of 'language' is 5")
+# else:
+# 	print('Length greater than 5')
+
+# #In python, you can use 'and' 'or' 'not'
+# #not just means not true
+
+
+# user = 'Joe3'
+# logged_in = True
+# sky_is_blue = False
+
+# if user == 'Joe' and logged_in == True or not sky_is_blue:
+# 	print('logged in')
+# else:
+# 	print('lmao bad')
+
+
+# #is functions as an identity check
+# a = [1,2,3]
+# b = [1,2,3]
+
+# print(id(a))
+# print(id(b))
+# print(a is b) #Basically, if id(a) == id(b)
+# print(a == b)
+
+#False values (conditions that returns false)
+# False
+# None
+# Zero
+# Empty Sequences (such as '', (), [])
+# Empty mapping/dictionaries (such as {})
+
+# condition = {}
+
+# if condition:
+# 	print('True')
+# else:
+# 	print('False')
+
+
+###LOOPS AND ITERATIONS###
+
+#nums = [1,2,3,4,5]
+
+# for bleh in nums:
+# 	if bleh == 3:
+# 		print('Found')
+# 		#break breaks out of the loop
+# 		continue #continues after conditional is met and skips what comes after in the loop (it doesn't print 3)
+# 	print(bleh)
+
+##loop within loop
+# for num in nums:
+# 	for letter in 'abc':
+# 		print(num, letter)
+
+#ranged loop
+
+# for i in range(1, 11):
+# 	print(i)
+
+#while method
+# x = 0
+# while x != 10:
+# 	if x == 5:
+# 		print("This would have been the number 5, but it isn't!")
+# 		x += 1
+# 		continue
+# 	print(x)
+# 	x += 1
+
+###FUNCTIONS###
+
+# use def infront of a function to define it
+
+# def hello_func(message, name = "anonymous"): #use = in the possible values to set a default value that gets used without inserting a name
+# 	#Reguired positinoal arguments such as 'message' need to come before key word arguments such as "name = 'anonymous'"
+# 	#pass #use pass to leave function empty for now
+# 	return (f'Hello {name}, {message}')
+
+# print(hello_func("banoodle").upper())
+
+
+# def student_info(*args, **kwargs): #variable names args and kwargs are just for convention, the * and **allows an arbitrary amount of 
+# 	#POSITIONAL and KEY WORD arguments (for example, when you don't know how many arguments will be used)
+# 	print(args)
+# 	print(kwargs)
+
+# student_info('Math', 'Art', 'History', 'Math', name = 'Jeff', age = '3', height = '6"2') #as always, POSITIONAL comes before KEY WORD arguments
+
+
+# def student_info(*args, **kwargs): 
+# 	print(args)
+# 	print(kwargs)
+
+# courses = ['Math', 'Art']
+# info = {'name': 'John', 'age': 22}
+
+# student_info(*courses, **info) #you can use * and ** to select which values to unpack
+
+'''hi''' 
+"""asdasd"""  #you can use ''' or """ at the start of a line to also make comments called a docstring
+
+'''
+Comments in Python improve the readability of the program, it explains the code in a language that 
+is easy to understand whereas docstrings describe what the code does, it does not explain how the code works. 
+We can access docstring using either the __doc__ attribute or help() function. Furthermore, docstrings can be
+expanded over multiply lines and are mostly used for explaining what a function or certain method does
+in your code. It CAN be used as a multi-line comment and will be treated by the system that way, but for convention sake
+and for other programmer's sake, maybe just use it for explaining only.
+'''
+
+"""MODULES"""
+#importing other files
+
+#you are able to import it as its in the same directory (same folder, same location)
+
+# import my_module as mm #import a module and use 'as' to rename the module and shorten the name to simplify
+# from my_module import find_index as fimm #you can import a function 'find_index' directly from the module
+# from my_module import find_index as fimm, test #use comma, then variable to import a variable along with the function
+
+# #from my_module import *
+# #you are able to import everything through 'import *' but it is usually avoided as * is unspecific
+
+# print(test) #notice how we are able to refer to a variable in the module
+
+# courses = ['banana', 'math', 'physics']
+
+# index = fimm(courses, 'math')
+
+# print(index)
+
+'''IF YOU ARE IMPORTING MODULES FROM DIFFERENT DIRECTORIES'''
+# import sys
+# sys.path.append('C:/Users/victo/OneDrive/Desktop') #you may need to switch \ to / in the file location
+# #however, this is usually ineffecient and messy, there is another way
+
+# from my_module import find_index as fimm
+
+#courses = ['banana', 'math', 'physics']
+
+# index = fimm(courses, 'math')
+
+# # print(index)
+# print(sys.path)
+
+
+'''ALTERNATIVE METHOD
+
+1. in Windows search bar, go into Advanced system settings
+2. Under 'Advanced', go into environment variables
+3. Click new... and name it.
+4. Give it the file location, click ok then save
+5. Go into command prompt
+6. type 'python', enter
+7. type import filename
+
+'''
+
+'''YOU CAN USE IMPORT STANDARD LIBRARIES OF FUNCTIONS'''
+
+#import random
+#import os
+
+
+# courses = ['banana', 'math', 'physics']
+
+# random_course = random.choice(courses)
+# today = datetime.date.today()
+
+# print(random_course)
+
+#print(os.__file__)
+
+'''
+List of some standard libraries:
+1. random
+2. math
+3. datetime
+4. calendar
+5. os //operating system, you can find directory locations
+6. etc...
+
+'''
+
+

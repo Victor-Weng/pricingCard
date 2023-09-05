@@ -1,0 +1,250 @@
+[
+    {
+        "key": "detailed",
+        "weight": 1.71
+    },
+    {
+        "key": "concept-art",
+        "weight": 277.26999999999987
+    },
+    {
+        "key": "dramatic-lighting",
+        "weight": 627.8300000000002
+    },
+    {
+        "key": "highly-detailed",
+        "weight": 285.27999999999986
+    },
+    {
+        "key": "hyper-realistic",
+        "weight": 346.77999999999975
+    },
+    {
+        "key": "intricate",
+        "weight": 474.93999999999977
+    },
+    {
+        "key": "sharp-details",
+        "weight": 2.27
+    },
+    {
+        "key": "octane-render",
+        "weight": 98.21999999999998
+    },
+    {
+        "key": "studio-lighting",
+        "weight": 1.71
+    },
+    {
+        "key": "trending-on-artstation",
+        "weight": 158.79000000000002
+    },
+    {
+        "key": "green",
+        "weight": 89.93999999999998
+    },
+    {
+        "key": "forest",
+        "weight": 175.97000000000006
+    },
+    {
+        "key": "majestic",
+        "weight": 89.93999999999998
+    },
+    {
+        "key": "",
+        "weight": 2156.540000000009
+    },
+    {
+        "key": "cityscape",
+        "weight": 357.9699999999998
+    },
+    {
+        "key": "artstation",
+        "weight": 413.9199999999998
+    },
+    {
+        "key": "portrait",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "female",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "warrior",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "post-apocalyptic",
+        "weight": 123.92999999999996
+    },
+    {
+        "key": "leather",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "gas mask",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "crossbow",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "city",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "fire",
+        "weight": 94.22999999999999
+    },
+    {
+        "key": "surreal",
+        "weight": 143.96000000000004
+    },
+    {
+        "key": "colorful",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "landscape",
+        "weight": 143.96000000000004
+    },
+    {
+        "key": "floating",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "islands",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "biome",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "desert",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "ocean",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "snow",
+        "weight": 85.10999999999999
+    },
+    {
+        "key": "neon-lights",
+        "weight": 110.83999999999997
+    },
+    {
+        "key": "flying-cars",
+        "weight": 110.83999999999997
+    },
+    {
+        "key": "salvador-dali",
+        "weight": 59.6
+    },
+    {
+        "key": "melting-clocks",
+        "weight": 59.6
+    },
+    {
+        "key": "distorted",
+        "weight": 59.6
+    },
+    {
+        "key": "dreamlike",
+        "weight": 59.6
+    },
+    {
+        "key": "subconscious",
+        "weight": 59.6
+    },
+    {
+        "key": "time",
+        "weight": 59.6
+    },
+    {
+        "key": "neon",
+        "weight": 57.68
+    },
+    {
+        "key": "flying",
+        "weight": 57.68
+    },
+    {
+        "key": "arianegroup",
+        "weight": 57.68
+    },
+    {
+        "key": "wasteland",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "ruined",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "buildings",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "scavengers",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "mutated",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "creatures",
+        "weight": 32.150000000000006
+    },
+    {
+        "key": "fallout-5",
+        "weight": 30.540000000000003
+    },
+    {
+        "key": "skyscrapers",
+        "weight": 29.310000000000002
+    },
+    {
+        "key": "futuristic",
+        "weight": 7.969999999999999
+    },
+    {
+        "key": "holographic",
+        "weight": 2.6100000000000003
+    },
+    {
+        "key": "cyberpunk",
+        "weight": 4.220000000000001
+    },
+    {
+        "key": "sci-fi",
+        "weight": 2.6100000000000003
+    },
+    {
+        "key": "cyberpunk-2077",
+        "weight": 2.6100000000000003
+    },
+    {
+        "key": "glowing",
+        "weight": 2.49
+    },
+    {
+        "key": "mushrooms",
+        "weight": 2.49
+    },
+    {
+        "key": "ruins",
+        "weight": 2.49
+    },
+    {
+        "key": "witcher",
+        "weight": 2.49
+    }
+]

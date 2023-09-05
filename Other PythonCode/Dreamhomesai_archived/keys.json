@@ -1,0 +1,150 @@
+[
+    {
+        "key": "Daryl-Anselmo",
+        "weight": 1.13
+    },
+    {
+        "key": "Zaha-Hadid",
+        "weight": 1.13
+    },
+    {
+        "key": "green",
+        "weight": 14.740000000000002
+    },
+    {
+        "key": "forest",
+        "weight": 22.27000000000001
+    },
+    {
+        "key": "majestic",
+        "weight": 50.28999999999998
+    },
+    {
+        "key": "hyper-realistic",
+        "weight": 37.680000000000014
+    },
+    {
+        "key": "concept-art",
+        "weight": 9.92
+    },
+    {
+        "key": "dramatic-lighting",
+        "weight": 44.649999999999984
+    },
+    {
+        "key": "futuristic",
+        "weight": 66.2199999999999
+    },
+    {
+        "key": "artstation",
+        "weight": 32.60000000000002
+    },
+    {
+        "key": "city",
+        "weight": 1.39
+    },
+    {
+        "key": "trending-on-artstation",
+        "weight": 31.280000000000015
+    },
+    {
+        "key": "octane-render",
+        "weight": 1.39
+    },
+    {
+        "key": "glass",
+        "weight": 12.520000000000001
+    },
+    {
+        "key": "portrait",
+        "weight": 0.75
+    },
+    {
+        "key": "curved",
+        "weight": 11.26
+    },
+    {
+        "key": "history",
+        "weight": 13.870000000000001
+    },
+    {
+        "key": "temple",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "water",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "lotus",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "pond",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "colorful",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "zen",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "architecture",
+        "weight": 9.209999999999999
+    },
+    {
+        "key": "phoenix",
+        "weight": 47.82999999999998
+    },
+    {
+        "key": "intricate",
+        "weight": 37.610000000000014
+    },
+    {
+        "key": "dramatic",
+        "weight": 37.610000000000014
+    },
+    {
+        "key": "lighting",
+        "weight": 9.3
+    },
+    {
+        "key": "wing",
+        "weight": 9.3
+    },
+    {
+        "key": "library",
+        "weight": 35.980000000000025
+    },
+    {
+        "key": "skyscraper",
+        "weight": 8.299999999999999
+    },
+    {
+        "key": "cityscape",
+        "weight": 8.299999999999999
+    },
+    {
+        "key": "book",
+        "weight": 8.439999999999998
+    },
+    {
+        "key": "holographic",
+        "weight": 25.170000000000023
+    },
+    {
+        "key": "modern",
+        "weight": 6.34
+    },
+    {
+        "key": "cliff",
+        "weight": 6.34
+    },
+    {
+        "key": "metal",
+        "weight": 2.26
+    }
+]

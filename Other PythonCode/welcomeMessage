@@ -1,0 +1,78 @@
+
+
+# message = """Hello World""" #3 quotation marks to span over multiple lines, enter counts as a character
+
+# print(len(message)) #length of String message
+# print(message[6:]) #print certain character position in message
+# print(message.lower()) ##.upper() apply all lower and upper case to message
+# print(message.count('o')) #count the number of certain character #.find('whatever') to find position of 'whatever' in string
+# message = message.replace('World', 'Universe')
+
+# greeting = 'hello'
+# name = 'michael'
+# message = greeting + ', ' + name + '. Welcome!'
+
+# formatted string
+# message = '{}, {}. Welcome!'.format(greeting, name)
+
+# fstring
+# message = f'{greeting}, {name.upper()}. Welcome!'
+
+# print(help(str.upper)) #print(dir(name))
+
+
+# num_1 = 17
+# num_2 = 3.98711234
+
+# if(num_1 != num_2):
+# 	print(f'{num_1} is different from {num_2}')
+
+
+# string_1 = int('100')
+# string_2 = int('200')
+
+# print(string_1 + string_2)
+
+
+# courses = ['History','Math','Physics','CompSci']
+# courses_2 = ['Gym','Music']
+
+# courses.append('Art') goes to end
+# courses.insert(0,courses_2) inserts as a single value
+# courses.extend(courses_2) adds a list to the end of a list
+
+# courses = courses[:2] + courses_2 + courses[2:]
+# courses.remove('Math')
+# popped = courses.pop() #removes last value
+# courses.insert(1,popped)
+# courses.reverse()
+# courses.sort()
+
+# print(f"{courses.index('Physics')} is the position of 'Physics'")
+# print('Math' in courses)
+
+
+# nums = [90,23,12,4,1,0.3,231]
+# nums.sort(reverse=True)
+# print(nums)
+
+# sorted_courses = sorted(nums)
+# print(f'{sorted_courses} where {max(nums)} is the max value and {min(nums)} is the smallest')
+
+# for index, banana in enumerate(courses, start=2):
+# 	print(index, banana)
+
+
+# courses = ['History','Math','Physics','CompSci']
+
+# course_str = ' - '.join(courses)
+# new_list = course_str.split(' - ')
+
+# print(new_list)
+
+
+#cntrl + / to comment and uncomment multiply lines
+#lists are used as list = ['1','2','3']
+#tuples are used as not_a_list = ('1','2','3') You can't mutate the contents. You can loop through this and look at it
+#sets are 
+
